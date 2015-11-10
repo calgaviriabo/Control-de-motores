@@ -5,7 +5,6 @@ input [15:0]fi_d;
   output [1:0]S_out_teta;
   output [1:0]S_out_fi;
 
-
 //inicialización 
 
    wire init1=0;
@@ -100,10 +99,5 @@ always @(posedge clk)  //movimento en el eje fi o horizontal
 	end
 
   end
-
-
-
-
-
-
+//modificacion sin espacios por carlos
 endmodule
