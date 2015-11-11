@@ -24,12 +24,10 @@
    wire init=0;
 
    reg s=0;
-   reg t=0;
-   reg t1=0;
 
           
 always @(posedge clk)  //selector entre manual y automatico
-case(s) 
+case(init) 
 
 
 1'b0:begin  // Primer caso init entra a automatico
